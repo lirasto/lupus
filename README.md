@@ -12,5 +12,5 @@ A project designed to compensate for my inability to use Carrd.
 2. Backgrounds (approved)
 3. Font (approved)
 4. Settings (under review)
-5. "Encrypted" number (approved
+5. "Encrypted" number (approved)
 6. Menu positioning (approved)
