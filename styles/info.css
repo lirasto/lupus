@@ -1,21 +1,22 @@
 .inner {
   display: flex;
-  justify-content: center;
-  align-items:center;
+  justify-content: right;
+  align-items:inherit;
   position: relative;
 }
 
-.menu {
+.info {
   padding: 15px;
   background: white;
-  width: 300px;
+  width: 500px;
   box-shadow: 2px 2px 8px rgba(0,0,0,.1);
   margin: 0 auto;
   position: absolute;
   top: 50%;
+  border-radius: 10px;
 }
 
-.menu h3 {
+.info h3 {
   font-size: 16px;
   color: rgba(0,0,0,.6);
   margin: 0 0 10px;
@@ -23,7 +24,7 @@
     position: relative;
 }
 
-.menu h3:after {
+.info h3:after {
   content: "";
   width: 6px;
   height: 6px;
@@ -34,33 +35,42 @@
   box-shadow: -8px -8px #8e4012, 0 -8px #8e4012, -8px 0 #8e4012;
 }
 
-.menu ul {
+.info ul {
   list-style: none;
   margin: 0;
   padding: 0; 
   border-top: 1px solid rgba(0,0,0,.3);
 }
 
-.menu li {margin: 12px 0 0 0px;}
-
-.menu a {
+.info li {
+  margin: 12px 0 0 0px;
   text-decoration: none;
   display: block;  
-  font-size: 13px;
+  font-size: 15px;
   color: rgba(0,0,0,.6);
-  padding: 5px;
   position: relative;
   transition: .3s linear;
 }
 
-.menu a:after {
-  content: "◆";
+.info a {
+  text-decoration: none;
+  display: block;  
+  font-size: 15px;
+  color: rgba(0,0,0,.6);
+  padding: 5px;
+  position: relative;
+  transition: .2s linear;
+}
+
+.info a:after {
+  content: "";
   position: absolute;
   right: 5px;
   color: white;
   transition: .2s linear;
 }
 
-.menu a:hover {
+.info a:hover {
   background: #ebb04b;
+  border-radius: 10px;
 }
