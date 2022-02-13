@@ -27,11 +27,11 @@
   content: "";
   width: 6px;
   height: 6px;
-  background: #80C8A0;
+  background: #8e4012;
   position: absolute;
   right: 5px;
   bottom: 2px;
-  box-shadow: -8px -8px #80C8A0, 0 -8px #80C8A0, -8px 0 #80C8A0;
+  box-shadow: -8px -8px #8e4012, 0 -8px #8e4012, -8px 0 #8e4012;
 }
 
 .menu ul {
@@ -54,7 +54,7 @@
 }
 
 .menu a:after {
-  content:"\f18e";
+  content:"\2137";
   position: absolute;
   right: 5px;
   color: white;
@@ -62,6 +62,5 @@
 }
 
 .menu a:hover {
-  background: #80C8A0;
-  color: white;
+  background: #ebb04b;
 }
