@@ -3,6 +3,7 @@
   background: white;
   width: 300px;
   box-shadow: 2px 2px 8px rgba(0,0,0,.1);
+  border-radius: 10px;
 }
 
 .menu h3 {
@@ -40,7 +41,7 @@
   color: rgba(0,0,0,.6);
   padding: 5px;
   position: relative;
-  transition: .3s linear;
+  transition: .1s linear;
 }
 
 .menu a:after {
@@ -48,10 +49,11 @@
   position: absolute;
   right: 5px;
   color: white;
-  transition: .2s linear;
+  transition: .1s linear;
 }
 
 .menu a:hover {
   background: #80C8A0;
   color: white;
+  border-radius: 10px;
 }
