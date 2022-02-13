@@ -14,3 +14,4 @@ A project designed to compensate for my inability to use Carrd.
 4. Settings (under review)
 5. "Encrypted" number (approved)
 6. Menu positioning (approved)
+7. Socials
