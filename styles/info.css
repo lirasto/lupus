@@ -52,7 +52,7 @@
   transition: .3s linear;
 }
 
-.info a {
+.return {
   text-decoration: none;
   display: block;  
   font-size: 15px;
@@ -62,7 +62,7 @@
   transition: .2s linear;
 }
 
-.info a:after {
+.return:after {
   content: "";
   position: absolute;
   right: 5px;
@@ -70,7 +70,12 @@
   transition: .2s linear;
 }
 
-.info a:hover {
+.return:hover {
   background: #ebb04b;
   border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0,0,0,.6);
 }
