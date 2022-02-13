@@ -54,7 +54,7 @@
 }
 
 .menu a:after {
-  content:"\2137";
+  content: "◆";
   position: absolute;
   right: 5px;
   color: white;
